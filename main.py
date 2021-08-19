@@ -3,7 +3,7 @@ from datetime import datetime
 
 from email.mime.multipart import MIMEMultipart  # padrão p/ o email
 from email.mime.text import MIMEText    # corpo da msg
-from email.mime.image import MIMEImage
+from email.mime.image import MIMEImage  # anexos de img
 
 import smtplib
 
